@@ -195,9 +195,9 @@ const TransformSection = () => {
                 })}
               </ul>
               <div className="animate-slide-up" style={{ animationDelay: '600ms' }}>
-                <button className="bg-[#005599] hover:bg-[#003366] text-white font-medium py-3 px-6 rounded transition-colors mt-4 uppercase text-sm tracking-wide shadow-md">
+                <GlowingButton className="mt-4">
                   {currentContent.cta}
-                </button>
+                </GlowingButton>
               </div>
             </div>
 
