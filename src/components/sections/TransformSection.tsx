@@ -121,7 +121,7 @@ const TransformSection = () => {
   };
 
   return (
-    <div ref={sectionRef} className="relative h-[200vh] bg-white">
+    <div ref={sectionRef} className="relative h-[200vh] bg-white mt-24 lg:mt-32">
       <div className="sticky top-0 min-h-screen flex flex-col justify-center overflow-hidden py-8 md:py-12 z-10">
         <section className="px-4 md:px-8 max-w-7xl mx-auto text-center w-full">
           <style>{`
