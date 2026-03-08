@@ -4,6 +4,7 @@ import {
   ClipboardList, MonitorPlay, HeartPulse, CreditCard,
   BrainCircuit, ShieldCheck, UserPlus, Plug
 } from 'lucide-react';
+import GlowingButton from '@/components/ui/GlowingButton';
 
 interface TabCapability {
   text: string;
