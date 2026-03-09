@@ -7,7 +7,7 @@ const cases = [
     quote: "We faced severe challenges with our legacy operational systems and data fragmentation. The team managed a full ERP migration seamlessly, providing us with unified reporting and automated workflows. I highly recommend their expertise for large-scale enterprise deployments.",
     author: "Ahmed Al-Mansoori",
     company: "Global Logistics Corp",
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://res.cloudinary.com/dcjufshrh/image/upload/v1772978007/shutterstock_2480023489_qved4l.png"
   },
   {
     quote: "Ensuring compliance with DHA standards while modernizing our patient records seemed daunting. Their healthcare transformation framework not only secured our data but enhanced our clinical efficiency by 40%, drastically improving patient outcomes.",
