@@ -13,7 +13,7 @@ const cases = [
     quote: "Ensuring compliance with DHA standards while modernizing our patient records seemed daunting. Their healthcare transformation framework not only secured our data but enhanced our clinical efficiency by 40%, drastically improving patient outcomes.",
     author: "Dr. Sarah Jenkins",
     company: "Prime Care Hospitals",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://res.cloudinary.com/dcjufshrh/image/upload/v1772978013/shutterstock_2556791541_vnzpzq.png"
   },
   {
     quote: "Lacking an internal specialized IT team, we relied completely on their managed services. They now handle our entire cybersecurity posture and infrastructure scaling, allowing us to focus entirely on our core business growth with total peace of mind.",
