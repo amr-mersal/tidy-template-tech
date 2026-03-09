@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { Layers, BrainCircuit, ShieldCheck, UserPlus, Network, ChevronLeft, ChevronRight } from 'lucide-react';
+import GlowingButton from '@/components/ui/GlowingButton';
 
 const services = [
   {
