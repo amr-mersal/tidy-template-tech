@@ -19,7 +19,7 @@ const cases = [
     quote: "Lacking an internal specialized IT team, we relied completely on their managed services. They now handle our entire cybersecurity posture and infrastructure scaling, allowing us to focus entirely on our core business growth with total peace of mind.",
     author: "Michael Chang",
     company: "FinTech Solutions",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://res.cloudinary.com/dcjufshrh/image/upload/v1772978009/shuttterrr_ymbklh.png"
   }
 ];
 
