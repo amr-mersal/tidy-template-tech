@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import GlowingButton from '@/components/ui/GlowingButton';
 
 const cases = [
@@ -7,19 +7,19 @@ const cases = [
     quote: "We faced severe challenges with our legacy operational systems and data fragmentation. The team managed a full ERP migration seamlessly, providing us with unified reporting and automated workflows. I highly recommend their expertise for large-scale enterprise deployments.",
     author: "Ahmed Al-Mansoori",
     company: "Global Logistics Corp",
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://res.cloudinary.com/dcjufshrh/image/upload/v1772978007/shutterstock_2480023489_qved4l.png"
   },
   {
     quote: "Ensuring compliance with DHA standards while modernizing our patient records seemed daunting. Their healthcare transformation framework not only secured our data but enhanced our clinical efficiency by 40%, drastically improving patient outcomes.",
     author: "Dr. Sarah Jenkins",
     company: "Prime Care Hospitals",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://res.cloudinary.com/dcjufshrh/image/upload/v1772978013/shutterstock_2556791541_vnzpzq.png"
   },
   {
     quote: "Lacking an internal specialized IT team, we relied completely on their managed services. They now handle our entire cybersecurity posture and infrastructure scaling, allowing us to focus entirely on our core business growth with total peace of mind.",
     author: "Michael Chang",
     company: "FinTech Solutions",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://res.cloudinary.com/dcjufshrh/image/upload/v1772978009/shuttterrr_ymbklh.png"
   }
 ];
 
@@ -57,11 +57,6 @@ const CaseStudiesSection = () => {
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#003366]/80 to-transparent mix-blend-multiply"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/40 transition-transform group-hover:scale-110">
-                    <Play className="w-8 h-8 text-white ml-1" fill="currentColor" />
-                  </div>
-                </div>
               </div>
 
               <div className="w-full md:w-1/2 flex flex-col justify-center h-full">

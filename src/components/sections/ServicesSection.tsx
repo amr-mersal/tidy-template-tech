@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { Layers, BrainCircuit, ShieldCheck, UserPlus, Network, ChevronLeft, ChevronRight } from 'lucide-react';
+import GlowingButton from '@/components/ui/GlowingButton';
 
 const services = [
   {
@@ -113,9 +114,9 @@ const ServicesSection = () => {
                 </p>
 
                 <div className="mt-auto pl-1">
-                  <a href="#" className={`inline-flex items-center justify-center font-bold text-sm px-6 py-2.5 rounded-xl border-2 border-current ${svc.color} hover:bg-gray-50 transition-colors`}>
+                  <GlowingButton className="w-full">
                     Explore
-                  </a>
+                  </GlowingButton>
                 </div>
               </div>
             ))}
