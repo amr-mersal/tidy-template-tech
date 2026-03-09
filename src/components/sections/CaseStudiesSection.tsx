@@ -57,11 +57,6 @@ const CaseStudiesSection = () => {
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#003366]/80 to-transparent mix-blend-multiply"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/40 transition-transform group-hover:scale-110">
-                    <Play className="w-8 h-8 text-white ml-1" fill="currentColor" />
-                  </div>
-                </div>
               </div>
 
               <div className="w-full md:w-1/2 flex flex-col justify-center h-full">
